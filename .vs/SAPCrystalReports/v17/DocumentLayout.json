@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\funcforms\\sapcrystalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|solutionrelative:funcforms\\sapcrystalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\funcforms\\sapcrystalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|solutionrelative:funcforms\\sapcrystalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|c:\\users\\usuario\\source\\repos\\sapcrystalreports\\controls actions\\controlsactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|solutionrelative:controls actions\\controlsactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SAPCrystalReports||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SAPCrystalReports||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\funcforms\\firstrep.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|solutionrelative:funcforms\\firstrep.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\funcforms\\sapcrystalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|solutionrelative:funcforms\\sapcrystalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\controls actions\\controlsactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|solutionrelative:controls actions\\controlsactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08FD4D5E-46AD-4D5E-848A-EF46B189FDC1}|SAPCrystalReports.csproj|C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\funcforms\\sapcrystalform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,11 +49,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FirstRep.rpt",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\FuncForms\\FirstRep.rpt",
+              "RelativeDocumentMoniker": "FuncForms\\FirstRep.rpt",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\FuncForms\\FirstRep.rpt",
+              "RelativeToolTip": "FuncForms\\FirstRep.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIdSURBVDhPpZJNaBNBFMf/M7ub2NhajSDiwS96CbY2BykojaD0oF5s0YPgQYReLHgpeNCLYv0AexNRb1VUAkJcPXgQEUG89BIaxI9gqzGxH6QmXTef3Wx2nJkmNev25g8ebx7z3n/ezBv8F4wx0lhK7j6fYo3lmowMhl35HoRA3XGk/YvYW\u002BsA2vCrUEIwu1hEJltwmeDc8V5Plx4BAaXEY4J7LxLSt4q4BBS6Eiq8oGm3nXHZ1VCkS9pgfxc62/0yT\u002BASaNRLIWE6ieHB3H1EZsMyVhUKTXU37Yo0RZFeVQiuL14D1tnooBtQcEwcSO9d7aoVdefw5yFC2GG\u002BDsa/OTj228LYwmXejYrkzxkUsqZMNG0TfZkexA99lHETUqlYJ0rV5YEPqfKOG7Glo3MGRSTkx2T4JNp2\u002BzGfmMf3JzNAHijHarJIfz\u002BN0wMh2QoduRrVL9x6NqrWzUt3hjfjYMiHV1NVWNHHCJAOoMof3OBOt10T8XD24kOiv0uynFFkp8ZTrPv8NNs3\u002BpXtifawUmWZWbU6q9l16Z\u002B\u002BTXrHOHHzDPP7ND6iNvSHAtjYrkLTNDzqfQleBIU/rDhdeI1Po4l7JpyqDSTSDoKdPmwLqqhaNdh2vbHrxXWhidcZ9mXBj3yJYr3Pwf7tBnL5HLZu2YRA4O/nERzp2yVrXQJiIhWrdsUwy92/lorZyURqLP4p/YZv/eBXLK9ktQL8AbhJ7xVosbKmAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-09-09T14:39:57.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ControlsActions.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\Controls Actions\\ControlsActions.cs",
               "RelativeDocumentMoniker": "Controls Actions\\ControlsActions.cs",
@@ -57,12 +72,11 @@
               "RelativeToolTip": "Controls Actions\\ControlsActions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T18:58:33.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T18:58:33.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SAPCrystalForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\FuncForms\\SAPCrystalForm.cs",
               "RelativeDocumentMoniker": "FuncForms\\SAPCrystalForm.cs",
@@ -74,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SAPCrystalReports",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\SAPCrystalReports.csproj",
               "RelativeDocumentMoniker": "SAPCrystalReports.csproj",
@@ -86,20 +100,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SAPCrystalForm.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\FuncForms\\SAPCrystalForm.cs",
               "RelativeDocumentMoniker": "FuncForms\\SAPCrystalForm.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\FuncForms\\SAPCrystalForm.cs",
               "RelativeToolTip": "FuncForms\\SAPCrystalForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAqAAAA",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAuwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T22:42:23.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SAPCrystalForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\FuncForms\\SAPCrystalForm.Designer.cs",
               "RelativeDocumentMoniker": "FuncForms\\SAPCrystalForm.Designer.cs",
@@ -112,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DataStaff.xsd",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\DataSet\\DataStaff.xsd",
               "RelativeDocumentMoniker": "DataSet\\DataStaff.xsd",
@@ -124,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ControlsActions.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\ControlsActions\\ControlsActions.cs",
               "RelativeDocumentMoniker": "ControlsActions\\ControlsActions.cs",
@@ -136,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\SAPCrystalReports\\Classes\\UserData.cs",
               "RelativeDocumentMoniker": "Classes\\UserData.cs",

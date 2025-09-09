@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SAPCrystalForm));
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.FirstRep1 = new SAPCrystalReports.FuncForms.FirstRep();
             this.dataGridView = new System.Windows.Forms.DataGridView();
@@ -304,8 +305,8 @@
             this.Controls.Add(this.SAPCrystalFromgroupBox);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SAPCrystalForm";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SAP Crystal Reports";
             this.Load += new System.EventHandler(this.SAPCrystalForm_Load);

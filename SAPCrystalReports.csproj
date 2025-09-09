@@ -273,6 +273,9 @@
   <ItemGroup>
     <None Include="Resources\1303882_delete_minimize_minus_remove_sign_icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crystal_Reports_Icon.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <SsdtUnitTestVersion>3.1</SsdtUnitTestVersion>
