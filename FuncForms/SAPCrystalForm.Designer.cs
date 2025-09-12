@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SAPCrystalForm));
-            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.FirstRep1 = new SAPCrystalReports.FuncForms.FirstRep();
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,6 +53,9 @@
             this.MaximizeFormButton = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
             this.RightChatPanel = new System.Windows.Forms.Panel();
+            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.FirstRep1 = new SAPCrystalReports.FuncForms.FirstRep();
+            this.webView = new Microsoft.Web.WebView2.WinForms.WebView2();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imp_InfoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).BeginInit();
@@ -63,19 +64,9 @@
             this.SAPCrystalFromgroupBox.SuspendLayout();
             this.groupBoxDataGrid.SuspendLayout();
             this.panelTopMenu.SuspendLayout();
+            this.RightChatPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.webView)).BeginInit();
             this.SuspendLayout();
-            // 
-            // crystalReportViewer1
-            // 
-            this.crystalReportViewer1.ActiveViewIndex = 0;
-            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(3, 16);
-            this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.ReportSource = this.FirstRep1;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(491, 271);
-            this.crystalReportViewer1.TabIndex = 1;
             // 
             // dataGridView
             // 
@@ -93,7 +84,7 @@
             this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView.Location = new System.Drawing.Point(3, 16);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(491, 150);
+            this.dataGridView.Size = new System.Drawing.Size(469, 150);
             this.dataGridView.TabIndex = 3;
             // 
             // idDataGridViewTextBoxColumn
@@ -226,7 +217,7 @@
             this.SAPCrystalFromgroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SAPCrystalFromgroupBox.Location = new System.Drawing.Point(168, 248);
             this.SAPCrystalFromgroupBox.Name = "SAPCrystalFromgroupBox";
-            this.SAPCrystalFromgroupBox.Size = new System.Drawing.Size(497, 290);
+            this.SAPCrystalFromgroupBox.Size = new System.Drawing.Size(472, 290);
             this.SAPCrystalFromgroupBox.TabIndex = 6;
             this.SAPCrystalFromgroupBox.TabStop = false;
             this.SAPCrystalFromgroupBox.Text = "SAP Crystal ";
@@ -239,7 +230,7 @@
             this.groupBoxDataGrid.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxDataGrid.Location = new System.Drawing.Point(168, 73);
             this.groupBoxDataGrid.Name = "groupBoxDataGrid";
-            this.groupBoxDataGrid.Size = new System.Drawing.Size(497, 169);
+            this.groupBoxDataGrid.Size = new System.Drawing.Size(475, 169);
             this.groupBoxDataGrid.TabIndex = 7;
             this.groupBoxDataGrid.TabStop = false;
             this.groupBoxDataGrid.Text = "DataBase Information";
@@ -297,12 +288,39 @@
             // 
             // RightChatPanel
             // 
-            this.RightChatPanel.BackColor = System.Drawing.Color.SteelBlue;
+            this.RightChatPanel.BackColor = System.Drawing.Color.RoyalBlue;
+            this.RightChatPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.RightChatPanel.Controls.Add(this.webView);
             this.RightChatPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.RightChatPanel.Location = new System.Drawing.Point(671, 67);
+            this.RightChatPanel.Location = new System.Drawing.Point(649, 67);
             this.RightChatPanel.Name = "RightChatPanel";
-            this.RightChatPanel.Size = new System.Drawing.Size(231, 471);
+            this.RightChatPanel.Size = new System.Drawing.Size(253, 471);
             this.RightChatPanel.TabIndex = 9;
+            // 
+            // crystalReportViewer1
+            // 
+            this.crystalReportViewer1.ActiveViewIndex = 0;
+            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(3, 16);
+            this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.ReportSource = this.FirstRep1;
+            this.crystalReportViewer1.Size = new System.Drawing.Size(466, 271);
+            this.crystalReportViewer1.TabIndex = 1;
+            // 
+            // webView
+            // 
+            this.webView.AllowExternalDrop = true;
+            this.webView.BackColor = System.Drawing.Color.RoyalBlue;
+            this.webView.CreationProperties = null;
+            this.webView.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webView.Location = new System.Drawing.Point(0, 0);
+            this.webView.Name = "webView";
+            this.webView.Size = new System.Drawing.Size(249, 467);
+            this.webView.TabIndex = 0;
+            this.webView.ZoomFactor = 1D;
             // 
             // SAPCrystalForm
             // 
@@ -330,6 +348,8 @@
             this.SAPCrystalFromgroupBox.ResumeLayout(false);
             this.groupBoxDataGrid.ResumeLayout(false);
             this.panelTopMenu.ResumeLayout(false);
+            this.RightChatPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.webView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -360,5 +380,6 @@
         private System.Windows.Forms.Button MaximizeFormButton;
         private System.Windows.Forms.Button MinimizeButton;
         private System.Windows.Forms.Panel RightChatPanel;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webView;
     }
 }

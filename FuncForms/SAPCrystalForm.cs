@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Web.WebView2.Core;
+using SAPCrystalReports.Controls_Actions;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -17,11 +19,13 @@ namespace SAPCrystalReports.FuncForms
             {
                 // TODO: esta linha de código carrega dados na tabela 'dataStaff.Imp_Info'. Você pode movê-la ou removê-la conforme necessário.
                 this.imp_InfoTableAdapter.Fill(this.dataStaff.Imp_Info);
+                Controls_Actions.ControlsActions.InitializeWebView(webView);
             }
             catch (Exception)
             {
             }
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -69,9 +73,12 @@ namespace SAPCrystalReports.FuncForms
 
         private void LoadByCode_Click(object sender, EventArgs e)
         {
+            /*
             FirstRep myCrystalFile = new FirstRep();
             myCrystalFile.SetDataSource(this.dataStaff);
             this.crystalReportViewer1.ReportSource = myCrystalFile;
+            */
+            ControlsActions.LoadReportByCode(crystalReportViewer1, this.dataStaff);
         }
 
         private void CloseButton_Click(object sender, EventArgs e)
