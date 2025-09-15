@@ -93,6 +93,16 @@ namespace SAPCrystalReports.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _352270_close_icon {
+            get {
+                object obj = ResourceManager.GetObject("_352270_close_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9042777_multi_mac_os_window_icon {
             get {
                 object obj = ResourceManager.GetObject("_9042777_multi_mac_os_window_icon", resourceCulture);

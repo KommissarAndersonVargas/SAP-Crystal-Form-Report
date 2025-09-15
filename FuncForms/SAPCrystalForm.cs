@@ -64,10 +64,11 @@ namespace SAPCrystalReports.FuncForms
             {
                 this.FirstRep1.SetDataSource(this.dataStaff);
                 this.crystalReportViewer1.RefreshReport();
+                AddDataInfoForm addData = new AddDataInfoForm();
+                addData.Show();
             }
             catch(Exception)
             {
-
             }
         }
 

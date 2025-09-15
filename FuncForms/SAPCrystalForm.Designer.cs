@@ -47,6 +47,8 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.LoadByCode = new System.Windows.Forms.Button();
             this.SAPCrystalFromgroupBox = new System.Windows.Forms.GroupBox();
+            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.FirstRep1 = new SAPCrystalReports.FuncForms.FirstRep();
             this.groupBoxDataGrid = new System.Windows.Forms.GroupBox();
             this.panelTopMenu = new System.Windows.Forms.Panel();
             this.MinimizeButton = new System.Windows.Forms.Button();
@@ -54,8 +56,6 @@
             this.CloseButton = new System.Windows.Forms.Button();
             this.RightChatPanel = new System.Windows.Forms.Panel();
             this.webView = new Microsoft.Web.WebView2.WinForms.WebView2();
-            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.FirstRep1 = new SAPCrystalReports.FuncForms.FirstRep();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imp_InfoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).BeginInit();
@@ -222,6 +222,19 @@
             this.SAPCrystalFromgroupBox.TabStop = false;
             this.SAPCrystalFromgroupBox.Text = "SAP Crystal ";
             // 
+            // crystalReportViewer1
+            // 
+            this.crystalReportViewer1.ActiveViewIndex = 0;
+            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(3, 16);
+            this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.ReportSource = this.FirstRep1;
+            this.crystalReportViewer1.ShowCloseButton = false;
+            this.crystalReportViewer1.Size = new System.Drawing.Size(466, 271);
+            this.crystalReportViewer1.TabIndex = 1;
+            // 
             // groupBoxDataGrid
             // 
             this.groupBoxDataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -309,19 +322,6 @@
             this.webView.Size = new System.Drawing.Size(249, 467);
             this.webView.TabIndex = 0;
             this.webView.ZoomFactor = 1D;
-            // 
-            // crystalReportViewer1
-            // 
-            this.crystalReportViewer1.ActiveViewIndex = 0;
-            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(3, 16);
-            this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.ReportSource = this.FirstRep1;
-            this.crystalReportViewer1.ShowCloseButton = false;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(466, 271);
-            this.crystalReportViewer1.TabIndex = 1;
             // 
             // SAPCrystalForm
             // 

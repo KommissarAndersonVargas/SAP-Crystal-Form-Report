@@ -111,3 +111,4 @@ C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\Microsoft.Web.WebView2
 C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\Microsoft.Web.WebView2.Core.xml
 C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
 C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.FuncForms.AddDataInfoForm.resources

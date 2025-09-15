@@ -181,6 +181,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataStaff.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FuncForms\AddDataInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncForms\AddDataInfoForm.Designer.cs">
+      <DependentUpon>AddDataInfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FuncForms\FirstRep.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -201,6 +207,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FuncForms\AddDataInfoForm.resx">
+      <DependentUpon>AddDataInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FuncForms\FirstRep.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>FirstRep.cs</LastGenOutput>
@@ -283,6 +292,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Crystal_Reports_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\352270_close_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
