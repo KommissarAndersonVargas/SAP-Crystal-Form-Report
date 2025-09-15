@@ -127,6 +127,9 @@
   <data name="_1303882_delete_minimize_minus_remove_sign_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1303882_delete_minimize_minus_remove_sign_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_1320812_analystic_chart_pie_report_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1320812_analystic_chart_pie_report_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_211651_close_round_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\211651_close_round_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,7 +139,16 @@
   <data name="_352270_close_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\352270_close_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_8684054_folder_file_document_download_load_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8684054_folder_file_document_download_load_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9004713_add_file_document_paper_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9004713_add_file_document_paper_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_9042777_multi_mac_os_window_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9042777_multi_mac_os_window_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9990964_update_data_load_system_upload_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9990964_update_data_load_system_upload_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

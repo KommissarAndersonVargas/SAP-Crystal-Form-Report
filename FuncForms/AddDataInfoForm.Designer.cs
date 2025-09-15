@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBoxAddInfo = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.AddData = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -43,14 +44,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.closeButton = new System.Windows.Forms.Button();
-            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.groupBoxAddInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxAddInfo
             // 
-            this.groupBoxAddInfo.BackColor = System.Drawing.Color.SteelBlue;
+            this.groupBoxAddInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.groupBoxAddInfo.Controls.Add(this.dateTimePicker);
             this.groupBoxAddInfo.Controls.Add(this.AddData);
             this.groupBoxAddInfo.Controls.Add(this.textBox5);
@@ -67,12 +66,19 @@
             this.groupBoxAddInfo.Controls.Add(this.textBox1);
             this.groupBoxAddInfo.Controls.Add(this.label1);
             this.groupBoxAddInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxAddInfo.Location = new System.Drawing.Point(60, 35);
+            this.groupBoxAddInfo.Location = new System.Drawing.Point(52, 35);
             this.groupBoxAddInfo.Name = "groupBoxAddInfo";
-            this.groupBoxAddInfo.Size = new System.Drawing.Size(331, 462);
+            this.groupBoxAddInfo.Size = new System.Drawing.Size(318, 462);
             this.groupBoxAddInfo.TabIndex = 0;
             this.groupBoxAddInfo.TabStop = false;
             this.groupBoxAddInfo.Text = "Data Information";
+            // 
+            // dateTimePicker
+            // 
+            this.dateTimePicker.Location = new System.Drawing.Point(134, 189);
+            this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Size = new System.Drawing.Size(181, 22);
+            this.dateTimePicker.TabIndex = 15;
             // 
             // AddData
             // 
@@ -188,34 +194,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Id";
             // 
-            // closeButton
-            // 
-            this.closeButton.FlatAppearance.BorderSize = 0;
-            this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeButton.Image = global::SAPCrystalReports.Properties.Resources._352270_close_icon;
-            this.closeButton.Location = new System.Drawing.Point(413, 3);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(30, 30);
-            this.closeButton.TabIndex = 1;
-            this.closeButton.UseVisualStyleBackColor = true;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-            // 
-            // dateTimePicker
-            // 
-            this.dateTimePicker.Location = new System.Drawing.Point(134, 189);
-            this.dateTimePicker.Name = "dateTimePicker";
-            this.dateTimePicker.Size = new System.Drawing.Size(181, 22);
-            this.dateTimePicker.TabIndex = 15;
-            // 
             // AddDataInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(450, 531);
-            this.Controls.Add(this.closeButton);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(423, 577);
             this.Controls.Add(this.groupBoxAddInfo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AddDataInfoForm";
@@ -230,7 +216,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBoxAddInfo;
-        private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.Button AddData;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;

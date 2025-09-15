@@ -296,6 +296,21 @@
   <ItemGroup>
     <None Include="Resources\352270_close_icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1320812_analystic_chart_pie_report_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1320812_analystic_chart_pie_report_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9990964_update_data_load_system_upload_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8684054_folder_file_document_download_load_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9004713_add_file_document_paper_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <SsdtUnitTestVersion>3.1</SsdtUnitTestVersion>

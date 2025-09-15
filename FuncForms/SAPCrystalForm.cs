@@ -58,41 +58,8 @@ namespace SAPCrystalReports.FuncForms
             */
         }
 
-        private void LoadReport_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.FirstRep1.SetDataSource(this.dataStaff);
-                this.crystalReportViewer1.RefreshReport();
-                AddDataInfoForm addData = new AddDataInfoForm();
-                addData.Show();
-            }
-            catch(Exception)
-            {
-            }
-        }
-
-        private void LoadByCode_Click(object sender, EventArgs e)
-        {
-            /*
-            FirstRep myCrystalFile = new FirstRep();
-            myCrystalFile.SetDataSource(this.dataStaff);
-            this.crystalReportViewer1.ReportSource = myCrystalFile;
-            */
-            ControlsActions.LoadReportByCode(crystalReportViewer1, this.dataStaff);
-        }
-
-        private void CloseButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Application.Exit();
-            }
-            catch (Exception)
-            {
-            }
-
-        }
+       
+       
 
         private void MaximizeFormButton_Click(object sender, EventArgs e)
         {
@@ -126,6 +93,85 @@ namespace SAPCrystalReports.FuncForms
             }
             catch (Exception)
             {
+            }
+        }
+
+        private void LoadData_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var tab = VerifyFullScreenTab();
+
+                if (tab)
+                {
+                    this.FirstRep1.SetDataSource(this.dataStaff);
+                    this.crystalReportViewerFullScr.RefreshReport();
+                }
+                else
+                {
+                    this.FirstRep1.SetDataSource(this.dataStaff);
+                    this.crystalReportViewer1.RefreshReport();
+                }
+              
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        private void LoadFast_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var tab = VerifyFullScreenTab();
+                if (tab)
+                {
+                    ControlsActions.LoadReportByCode(crystalReportViewerFullScr, this.dataStaff);
+                }
+                else
+                {
+                    ControlsActions.LoadReportByCode(crystalReportViewer1, this.dataStaff);
+                }
+            }
+
+            catch (Exception)
+            {
+            }
+           
+        }
+
+        private void CloseButton_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                Application.Exit();
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        private void AddNewData_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                AddDataInfoForm addData = new AddDataInfoForm();
+                addData.Show();
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        public bool VerifyFullScreenTab()
+        {
+            if (tabControl.SelectedTab != null && tabControl.SelectedTab.Name == "FullScrenTab")
+            {
+                return true; // A aba está aberta/ativa
+            }
+            else 
+            {
+                return false;
             }
         }
     }

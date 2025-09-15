@@ -73,6 +73,16 @@ namespace SAPCrystalReports.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1320812_analystic_chart_pie_report_icon {
+            get {
+                object obj = ResourceManager.GetObject("_1320812_analystic_chart_pie_report_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _211651_close_round_icon {
             get {
                 object obj = ResourceManager.GetObject("_211651_close_round_icon", resourceCulture);
@@ -103,9 +113,39 @@ namespace SAPCrystalReports.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8684054_folder_file_document_download_load_icon {
+            get {
+                object obj = ResourceManager.GetObject("_8684054_folder_file_document_download_load_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9004713_add_file_document_paper_icon {
+            get {
+                object obj = ResourceManager.GetObject("_9004713_add_file_document_paper_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9042777_multi_mac_os_window_icon {
             get {
                 object obj = ResourceManager.GetObject("_9042777_multi_mac_os_window_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9990964_update_data_load_system_upload_icon {
+            get {
+                object obj = ResourceManager.GetObject("_9990964_update_data_load_system_upload_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
