@@ -60,6 +60,8 @@
             this.LoadFast = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.AddNewData = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.UpdateDataBase = new System.Windows.Forms.ToolStripButton();
             this.CloseButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imp_InfoBindingSource)).BeginInit();
@@ -90,7 +92,7 @@
             this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView.Location = new System.Drawing.Point(3, 16);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(629, 141);
+            this.dataGridView.Size = new System.Drawing.Size(534, 141);
             this.dataGridView.TabIndex = 3;
             // 
             // idDataGridViewTextBoxColumn
@@ -163,7 +165,7 @@
             this.SAPCrystalFromgroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SAPCrystalFromgroupBox.Location = new System.Drawing.Point(3, 163);
             this.SAPCrystalFromgroupBox.Name = "SAPCrystalFromgroupBox";
-            this.SAPCrystalFromgroupBox.Size = new System.Drawing.Size(635, 273);
+            this.SAPCrystalFromgroupBox.Size = new System.Drawing.Size(540, 273);
             this.SAPCrystalFromgroupBox.TabIndex = 6;
             this.SAPCrystalFromgroupBox.TabStop = false;
             this.SAPCrystalFromgroupBox.Text = "SAP Crystal Report ";
@@ -178,7 +180,7 @@
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ReportSource = this.FirstRep1;
             this.crystalReportViewer1.ShowCloseButton = false;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(629, 254);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(534, 254);
             this.crystalReportViewer1.TabIndex = 1;
             // 
             // groupBoxDataGrid
@@ -188,7 +190,7 @@
             this.groupBoxDataGrid.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxDataGrid.Location = new System.Drawing.Point(3, 3);
             this.groupBoxDataGrid.Name = "groupBoxDataGrid";
-            this.groupBoxDataGrid.Size = new System.Drawing.Size(635, 160);
+            this.groupBoxDataGrid.Size = new System.Drawing.Size(540, 160);
             this.groupBoxDataGrid.TabIndex = 7;
             this.groupBoxDataGrid.TabStop = false;
             this.groupBoxDataGrid.Text = "DataBase Information";
@@ -199,9 +201,9 @@
             this.RightChatPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.RightChatPanel.Controls.Add(this.webView);
             this.RightChatPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.RightChatPanel.Location = new System.Drawing.Point(649, 73);
+            this.RightChatPanel.Location = new System.Drawing.Point(554, 73);
             this.RightChatPanel.Name = "RightChatPanel";
-            this.RightChatPanel.Size = new System.Drawing.Size(253, 465);
+            this.RightChatPanel.Size = new System.Drawing.Size(348, 465);
             this.RightChatPanel.TabIndex = 9;
             // 
             // webView
@@ -210,10 +212,10 @@
             this.webView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.webView.CreationProperties = null;
             this.webView.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView.Dock = System.Windows.Forms.DockStyle.Right;
+            this.webView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.webView.Location = new System.Drawing.Point(0, 0);
             this.webView.Name = "webView";
-            this.webView.Size = new System.Drawing.Size(249, 461);
+            this.webView.Size = new System.Drawing.Size(344, 461);
             this.webView.TabIndex = 0;
             this.webView.ZoomFactor = 1D;
             // 
@@ -226,7 +228,7 @@
             this.tabControl.Location = new System.Drawing.Point(0, 73);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(649, 465);
+            this.tabControl.Size = new System.Drawing.Size(554, 465);
             this.tabControl.TabIndex = 10;
             // 
             // MainTab
@@ -236,7 +238,7 @@
             this.MainTab.Location = new System.Drawing.Point(4, 22);
             this.MainTab.Name = "MainTab";
             this.MainTab.Padding = new System.Windows.Forms.Padding(3);
-            this.MainTab.Size = new System.Drawing.Size(641, 439);
+            this.MainTab.Size = new System.Drawing.Size(546, 439);
             this.MainTab.TabIndex = 0;
             this.MainTab.Text = "Work Space";
             this.MainTab.UseVisualStyleBackColor = true;
@@ -247,7 +249,7 @@
             this.FullScrenTab.Location = new System.Drawing.Point(4, 22);
             this.FullScrenTab.Name = "FullScrenTab";
             this.FullScrenTab.Padding = new System.Windows.Forms.Padding(3);
-            this.FullScrenTab.Size = new System.Drawing.Size(641, 439);
+            this.FullScrenTab.Size = new System.Drawing.Size(546, 439);
             this.FullScrenTab.TabIndex = 1;
             this.FullScrenTab.Text = "Full Screen Report";
             this.FullScrenTab.UseVisualStyleBackColor = true;
@@ -261,7 +263,7 @@
             this.crystalReportViewerFullScr.Location = new System.Drawing.Point(3, 3);
             this.crystalReportViewerFullScr.Name = "crystalReportViewerFullScr";
             this.crystalReportViewerFullScr.ReportSource = this.FirstRep1;
-            this.crystalReportViewerFullScr.Size = new System.Drawing.Size(635, 433);
+            this.crystalReportViewerFullScr.Size = new System.Drawing.Size(540, 433);
             this.crystalReportViewerFullScr.TabIndex = 0;
             // 
             // MaximizeFormButton
@@ -302,7 +304,9 @@
             this.toolStripSeparator1,
             this.LoadFast,
             this.toolStripSeparator2,
-            this.AddNewData});
+            this.AddNewData,
+            this.toolStripSeparator3,
+            this.UpdateDataBase});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(902, 73);
@@ -366,6 +370,24 @@
             this.AddNewData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.AddNewData.ToolTipText = "Add Data";
             this.AddNewData.Click += new System.EventHandler(this.AddNewData_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 73);
+            // 
+            // UpdateDataBase
+            // 
+            this.UpdateDataBase.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateDataBase.Image = global::SAPCrystalReports.Properties.Resources._95904_database_right_arrow_icon;
+            this.UpdateDataBase.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.UpdateDataBase.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.UpdateDataBase.Name = "UpdateDataBase";
+            this.UpdateDataBase.Size = new System.Drawing.Size(117, 70);
+            this.UpdateDataBase.Text = "Update Database";
+            this.UpdateDataBase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.UpdateDataBase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UpdateDataBase.Click += new System.EventHandler(this.UpdateDataBase_Click);
             // 
             // CloseButton
             // 
@@ -448,5 +470,7 @@
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripButton UpdateDataBase;
     }
 }

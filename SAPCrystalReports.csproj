@@ -173,6 +173,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base Classes\DatabaseConnection.cs" />
     <Compile Include="Base Classes\UserBuilder.cs" />
     <Compile Include="Base Classes\UserData.cs" />
     <Compile Include="Controls Actions\ControlsActions.cs" />
@@ -301,6 +302,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\9004713_add_file_document_paper_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\95904_database_right_arrow_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

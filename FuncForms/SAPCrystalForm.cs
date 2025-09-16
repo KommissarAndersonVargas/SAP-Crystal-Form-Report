@@ -98,46 +98,12 @@ namespace SAPCrystalReports.FuncForms
 
         private void LoadData_Click(object sender, EventArgs e)
         {
-            try
-            {
-                var tab = VerifyFullScreenTab();
-
-                if (tab)
-                {
-                    this.FirstRep1.SetDataSource(this.dataStaff);
-                    this.crystalReportViewerFullScr.RefreshReport();
-                }
-                else
-                {
-                    this.FirstRep1.SetDataSource(this.dataStaff);
-                    this.crystalReportViewer1.RefreshReport();
-                }
-              
-            }
-            catch (Exception)
-            {
-            }
+            ControlsActions.LoadData(tabControl, crystalReportViewerFullScr, crystalReportViewer1, dataStaff, FirstRep1);
         }
 
         private void LoadFast_Click(object sender, EventArgs e)
         {
-            try
-            {
-                var tab = VerifyFullScreenTab();
-                if (tab)
-                {
-                    ControlsActions.LoadReportByCode(crystalReportViewerFullScr, this.dataStaff);
-                }
-                else
-                {
-                    ControlsActions.LoadReportByCode(crystalReportViewer1, this.dataStaff);
-                }
-            }
-
-            catch (Exception)
-            {
-            }
-           
+            ControlsActions.LoadFast(tabControl, crystalReportViewerFullScr, crystalReportViewer1, this.dataStaff);
         }
 
         private void CloseButton_Click_1(object sender, EventArgs e)
@@ -163,15 +129,14 @@ namespace SAPCrystalReports.FuncForms
             }
         }
 
-        public bool VerifyFullScreenTab()
+        private void UpdateDataBase_Click(object sender, EventArgs e)
         {
-            if (tabControl.SelectedTab != null && tabControl.SelectedTab.Name == "FullScrenTab")
+            try
             {
-                return true; // A aba está aberta/ativa
+                this.imp_InfoTableAdapter.Fill(this.dataStaff.Imp_Info);
             }
-            else 
+            catch (Exception)
             {
-                return false;
             }
         }
     }

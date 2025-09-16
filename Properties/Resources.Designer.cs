@@ -143,6 +143,16 @@ namespace SAPCrystalReports.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _95904_database_right_arrow_icon {
+            get {
+                object obj = ResourceManager.GetObject("_95904_database_right_arrow_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9990964_update_data_load_system_upload_icon {
             get {
                 object obj = ResourceManager.GetObject("_9990964_update_data_load_system_upload_icon", resourceCulture);

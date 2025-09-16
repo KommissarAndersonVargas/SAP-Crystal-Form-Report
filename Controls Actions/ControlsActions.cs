@@ -4,6 +4,7 @@ using System;
 using Microsoft.Web.WebView2.WinForms;
 using SAPCrystalReports.FuncForms;
 using CrystalDecisions.Windows.Forms;
+using System.Drawing;
 
 namespace SAPCrystalReports.Controls_Actions
 {
@@ -42,6 +43,61 @@ namespace SAPCrystalReports.Controls_Actions
             FirstRep myCrystalFile = new FirstRep();
             myCrystalFile.SetDataSource(dataStaff);
             crystalReportViewer.ReportSource = myCrystalFile;
+        }
+
+        public static void LoadFast(TabControl tabControl, CrystalReportViewer crystalReportViewerFullScr, CrystalReportViewer crystalReportViewer1, DataSet.DataStaff dataStaff)
+        {
+            try
+            {
+                var tab = VerifyFullScreenTab(tabControl);
+                if (tab)
+                {
+                    ControlsActions.LoadReportByCode(crystalReportViewerFullScr, dataStaff);
+                }
+                else
+                {
+                    ControlsActions.LoadReportByCode(crystalReportViewer1, dataStaff);
+                }
+            }
+
+            catch (Exception)
+            {
+            }
+        }
+
+        public static void LoadData(TabControl tabControl, CrystalReportViewer crystalReportViewerFullScr, CrystalReportViewer crystalReportViewer1, DataSet.DataStaff dataStaff, FirstRep FirstRep1)
+        {
+            try
+            {
+                var tab = VerifyFullScreenTab(tabControl);
+
+                if (tab)
+                {
+                    FirstRep1.SetDataSource(dataStaff);
+                    crystalReportViewerFullScr.RefreshReport();
+                }
+                else
+                {
+                    FirstRep1.SetDataSource(dataStaff);
+                    crystalReportViewer1.RefreshReport();
+                }
+
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        public static bool VerifyFullScreenTab(TabControl tabControl)
+        {
+            if (tabControl.SelectedTab != null && tabControl.SelectedTab.Name == "FullScrenTab")
+            {
+                return true; // A aba está aberta/ativa
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

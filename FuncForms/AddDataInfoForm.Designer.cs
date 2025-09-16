@@ -88,6 +88,7 @@
             this.AddDataButton.TabIndex = 14;
             this.AddDataButton.Text = "Save";
             this.AddDataButton.UseVisualStyleBackColor = true;
+            this.AddDataButton.Click += new System.EventHandler(this.AddDataButton_Click);
             // 
             // EmailTxtBox
             // 
