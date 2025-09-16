@@ -95,7 +95,6 @@ C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\pt-BR\Microsoft.Data.T
 C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\pt-BR\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.csproj.AssemblyReference.cache
 C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.FuncForms.SAPCrystalForm.resources
-C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.MainForm.MainMDIForm.resources
 C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.Properties.Resources.resources
 C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.csproj.GenerateResource.cache
 C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.csproj.CoreCompileInputs.cache

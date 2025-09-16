@@ -199,12 +199,6 @@
     <Compile Include="FuncForms\SAPCrystalForm.Designer.cs">
       <DependentUpon>SAPCrystalForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm\MainMDIForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm\MainMDIForm.Designer.cs">
-      <DependentUpon>MainMDIForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FuncForms\AddDataInfoForm.resx">
@@ -216,9 +210,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FuncForms\SAPCrystalForm.resx">
       <DependentUpon>SAPCrystalForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainForm\MainMDIForm.resx">
-      <DependentUpon>MainMDIForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
