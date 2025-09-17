@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Data.Common;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SAPCrystalReports.FuncForms
@@ -35,39 +28,22 @@ namespace SAPCrystalReports.FuncForms
 
             if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName))
             {
-                MessageBox.Show("Informe nome e sobrenome");
+                MessageBox.Show(Properties.Resources.InfoName, Properties.Resources.Warning, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             if (!decimal.TryParse(IncomeTxtBox.Text.Trim(), out income))
             {
-                MessageBox.Show("Renda inválida");
+                MessageBox.Show(Properties.Resources.InvalidIncome, Properties.Resources.Warning, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-            }
+            }           
 
-            // Sua string de conexão
-            string connectionString =
-                @"Data Source=DESKTOP-H0IIS6S\SQL2014;
-                  Initial Catalog=My_Staff;
-                  Persist Security Info=True;
-                  User ID=sa;
-                  Password=123456;
-                  TrustServerCertificate=True";
-
-            // Comando INSERT com parâmetros
-            string insertQuery = @"
-                INSERT INTO [My_Staff].[dbo].[Imp_Info]
-                (First_Name, Last_Name, Date_of_birth, income, Cell_Number, Email)
-                VALUES
-                (@FirstName, @LastName, @DateOfBirth, @Income, @CellNumber, @Email);
-            ";
-
+           
             try
             {
-                using (SqlConnection conn = new SqlConnection(connectionString))
+                using (SqlConnection conn = new SqlConnection(DatabaseConnection.GetConnection()))
                 {
-                    using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
+                    using (SqlCommand cmd = new SqlCommand(DatabaseConnection.insertQuery, conn))
                     {
-                        // Definindo parâmetros
                         cmd.Parameters.Add("@FirstName", SqlDbType.VarChar, 100).Value = firstName;
                         cmd.Parameters.Add("@LastName", SqlDbType.VarChar, 100).Value = lastName;
                         cmd.Parameters.Add("@DateOfBirth", SqlDbType.Date).Value = dateOfBirth.Date;
@@ -81,19 +57,19 @@ namespace SAPCrystalReports.FuncForms
 
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("Inserção realizada com sucesso!");
+                            MessageBox.Show(Properties.Resources.AddedDone, Properties.Resources.Information, MessageBoxButtons.OK, MessageBoxIcon.Information);
                             LimparCampos();
                         }
                         else
                         {
-                            MessageBox.Show("Nenhuma linha foi inserida.");
+                            MessageBox.Show(Properties.Resources.AnyLineFound, Properties.Resources.Warning, MessageBoxButtons.OK,MessageBoxIcon.Warning);
                         }
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show("Erro ao inserir no banco: " + ex.Message);
+                MessageBox.Show(Properties.Resources.DataBaseError, Properties.Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
