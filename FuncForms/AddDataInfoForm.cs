@@ -7,6 +7,7 @@ namespace SAPCrystalReports.FuncForms
 {
     public partial class AddDataInfoForm : Form
     {
+        public event EventHandler DadosInseridos;
         public AddDataInfoForm()
         {
             InitializeComponent();
@@ -52,6 +53,7 @@ namespace SAPCrystalReports.FuncForms
 
                 if (addResult)
                 {
+                    DadosInseridos?.Invoke(this, EventArgs.Empty);
                     MessageBox.Show(Properties.Resources.AddedDone, Properties.Resources.Information, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LimparCampos();
                 }

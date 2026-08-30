@@ -27,15 +27,6 @@ namespace SAPCrystalReports.FuncForms
             }
         }
 
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-       
-       
-
         private void MaximizeFormButton_Click(object sender, EventArgs e)
         {
             try
@@ -71,11 +62,6 @@ namespace SAPCrystalReports.FuncForms
             }
         }
 
-        private void LoadData_Click(object sender, EventArgs e)
-        {
-            ControlsActions.LoadData(tabControl, crystalReportViewerFullScr, crystalReportViewer1, dataStaff, FirstRep1);
-        }
-
         private void LoadFast_Click(object sender, EventArgs e)
         {
             ControlsActions.LoadFast(tabControl, crystalReportViewerFullScr, crystalReportViewer1, this.dataStaff);
@@ -97,11 +83,23 @@ namespace SAPCrystalReports.FuncForms
             try
             {
                 AddDataInfoForm addData = new AddDataInfoForm();
+
+                addData.DadosInseridos += FormInserir_DadosInseridos;
+
                 addData.Show();
             }
             catch (Exception)
             {
             }
+        }
+
+        private void FormInserir_DadosInseridos(object sender, EventArgs e)
+        {
+            // Atualiza o banco
+            this.imp_InfoTableAdapter.Fill(this.dataStaff.Imp_Info);
+
+            // Atualiza o Crystal Report
+            crystalReportViewer1.RefreshReport();
         }
 
         private void UpdateDataBase_Click(object sender, EventArgs e)

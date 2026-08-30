@@ -55,17 +55,15 @@
             this.MaximizeFormButton = new System.Windows.Forms.Button();
             this.MinimizeButton = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.LoadData = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.LoadFast = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.AddNewData = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.UpdateDataBase = new System.Windows.Forms.ToolStripButton();
-            this.CloseButton = new System.Windows.Forms.Button();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.About = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.CloseButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imp_InfoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).BeginInit();
@@ -303,8 +301,6 @@
             this.toolStrip1.BackColor = System.Drawing.Color.Gainsboro;
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.LoadData,
-            this.toolStripSeparator1,
             this.LoadFast,
             this.toolStripSeparator2,
             this.AddNewData,
@@ -318,27 +314,6 @@
             this.toolStrip1.Size = new System.Drawing.Size(902, 73);
             this.toolStrip1.TabIndex = 11;
             this.toolStrip1.Text = "toolStripMenu";
-            // 
-            // LoadData
-            // 
-            this.LoadData.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.LoadData.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoadData.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LoadData.Image = global::SAPCrystalReports.Properties.Resources._8684054_folder_file_document_download_load_icon;
-            this.LoadData.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.LoadData.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.LoadData.Name = "LoadData";
-            this.LoadData.Size = new System.Drawing.Size(75, 70);
-            this.LoadData.Text = "Load Data";
-            this.LoadData.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.LoadData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.LoadData.ToolTipText = "Load Data";
-            this.LoadData.Click += new System.EventHandler(this.LoadData_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 73);
             // 
             // LoadFast
             // 
@@ -395,20 +370,6 @@
             this.UpdateDataBase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.UpdateDataBase.Click += new System.EventHandler(this.UpdateDataBase_Click);
             // 
-            // CloseButton
-            // 
-            this.CloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.CloseButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.CloseButton.FlatAppearance.BorderSize = 0;
-            this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CloseButton.Image = global::SAPCrystalReports.Properties.Resources._211651_close_round_icon;
-            this.CloseButton.Location = new System.Drawing.Point(855, 12);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(45, 41);
-            this.CloseButton.TabIndex = 12;
-            this.CloseButton.UseVisualStyleBackColor = false;
-            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click_1);
-            // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
@@ -429,6 +390,20 @@
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(6, 73);
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.CloseButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.CloseButton.FlatAppearance.BorderSize = 0;
+            this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CloseButton.Image = global::SAPCrystalReports.Properties.Resources._211651_close_round_icon;
+            this.CloseButton.Location = new System.Drawing.Point(855, 12);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(45, 41);
+            this.CloseButton.TabIndex = 12;
+            this.CloseButton.UseVisualStyleBackColor = false;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click_1);
             // 
             // SAPCrystalForm
             // 
@@ -492,10 +467,8 @@
         private System.Windows.Forms.Button MinimizeButton;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton AddNewData;
-        private System.Windows.Forms.ToolStripButton LoadData;
         private System.Windows.Forms.ToolStripButton LoadFast;
         private System.Windows.Forms.Button CloseButton;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton UpdateDataBase;
