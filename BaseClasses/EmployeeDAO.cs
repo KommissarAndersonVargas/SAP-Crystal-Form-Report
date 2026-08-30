@@ -15,9 +15,9 @@ namespace SAPCrystalReports.Base_Classes
     {
         public static bool AddNewEmployee(EmployeeData employee)
         {
-            using (SqlConnection conn = new SqlConnection(DatabaseConnection.GetConnection()))
+            using (SqlConnection conn = new SqlConnection(DatabaseManager.ConnectionString))
             {
-                using (SqlCommand cmd = new SqlCommand(DatabaseConnection.insertQuery, conn))
+                using (SqlCommand cmd = new SqlCommand(DatabaseManager.InsertEmployeDataQuery, conn))
                 {
                     cmd.Parameters.Add("@FirstName", SqlDbType.VarChar, 100).Value = employee.First_Name;
                     cmd.Parameters.Add("@LastName", SqlDbType.VarChar, 100).Value = employee.Last_Name;
