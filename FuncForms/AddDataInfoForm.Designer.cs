@@ -42,8 +42,7 @@
             this.LastNameLbl = new System.Windows.Forms.Label();
             this.FirstNameTxtBox = new System.Windows.Forms.TextBox();
             this.FisrstNameLbl = new System.Windows.Forms.Label();
-            this.IdTxtBox = new System.Windows.Forms.TextBox();
-            this.IdLbl = new System.Windows.Forms.Label();
+            this.bottomPanel = new System.Windows.Forms.Panel();
             this.groupBoxAddInfo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,26 +62,24 @@
             this.groupBoxAddInfo.Controls.Add(this.LastNameLbl);
             this.groupBoxAddInfo.Controls.Add(this.FirstNameTxtBox);
             this.groupBoxAddInfo.Controls.Add(this.FisrstNameLbl);
-            this.groupBoxAddInfo.Controls.Add(this.IdTxtBox);
-            this.groupBoxAddInfo.Controls.Add(this.IdLbl);
             this.groupBoxAddInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxAddInfo.Location = new System.Drawing.Point(52, 35);
             this.groupBoxAddInfo.Name = "groupBoxAddInfo";
-            this.groupBoxAddInfo.Size = new System.Drawing.Size(318, 462);
+            this.groupBoxAddInfo.Size = new System.Drawing.Size(318, 435);
             this.groupBoxAddInfo.TabIndex = 0;
             this.groupBoxAddInfo.TabStop = false;
             this.groupBoxAddInfo.Text = "Data Information";
             // 
             // dateTimePicker
             // 
-            this.dateTimePicker.Location = new System.Drawing.Point(134, 189);
+            this.dateTimePicker.Location = new System.Drawing.Point(131, 156);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(181, 22);
             this.dateTimePicker.TabIndex = 15;
             // 
             // AddDataButton
             // 
-            this.AddDataButton.Location = new System.Drawing.Point(134, 347);
+            this.AddDataButton.Location = new System.Drawing.Point(131, 314);
             this.AddDataButton.Name = "AddDataButton";
             this.AddDataButton.Size = new System.Drawing.Size(181, 28);
             this.AddDataButton.TabIndex = 14;
@@ -92,7 +89,7 @@
             // 
             // EmailTxtBox
             // 
-            this.EmailTxtBox.Location = new System.Drawing.Point(134, 309);
+            this.EmailTxtBox.Location = new System.Drawing.Point(131, 276);
             this.EmailTxtBox.Name = "EmailTxtBox";
             this.EmailTxtBox.Size = new System.Drawing.Size(181, 22);
             this.EmailTxtBox.TabIndex = 13;
@@ -100,7 +97,7 @@
             // EmailLbl
             // 
             this.EmailLbl.AutoSize = true;
-            this.EmailLbl.Location = new System.Drawing.Point(77, 309);
+            this.EmailLbl.Location = new System.Drawing.Point(74, 276);
             this.EmailLbl.Name = "EmailLbl";
             this.EmailLbl.Size = new System.Drawing.Size(46, 16);
             this.EmailLbl.TabIndex = 12;
@@ -108,7 +105,7 @@
             // 
             // CellNumberTxtBox
             // 
-            this.CellNumberTxtBox.Location = new System.Drawing.Point(134, 269);
+            this.CellNumberTxtBox.Location = new System.Drawing.Point(131, 236);
             this.CellNumberTxtBox.Name = "CellNumberTxtBox";
             this.CellNumberTxtBox.Size = new System.Drawing.Size(181, 22);
             this.CellNumberTxtBox.TabIndex = 11;
@@ -116,7 +113,7 @@
             // CellNumberLbl
             // 
             this.CellNumberLbl.AutoSize = true;
-            this.CellNumberLbl.Location = new System.Drawing.Point(31, 269);
+            this.CellNumberLbl.Location = new System.Drawing.Point(28, 236);
             this.CellNumberLbl.Name = "CellNumberLbl";
             this.CellNumberLbl.Size = new System.Drawing.Size(92, 16);
             this.CellNumberLbl.TabIndex = 10;
@@ -124,7 +121,7 @@
             // 
             // IncomeTxtBox
             // 
-            this.IncomeTxtBox.Location = new System.Drawing.Point(134, 229);
+            this.IncomeTxtBox.Location = new System.Drawing.Point(131, 196);
             this.IncomeTxtBox.Name = "IncomeTxtBox";
             this.IncomeTxtBox.Size = new System.Drawing.Size(181, 22);
             this.IncomeTxtBox.TabIndex = 9;
@@ -132,7 +129,7 @@
             // IncomeLbl
             // 
             this.IncomeLbl.AutoSize = true;
-            this.IncomeLbl.Location = new System.Drawing.Point(66, 232);
+            this.IncomeLbl.Location = new System.Drawing.Point(63, 199);
             this.IncomeLbl.Name = "IncomeLbl";
             this.IncomeLbl.Size = new System.Drawing.Size(57, 16);
             this.IncomeLbl.TabIndex = 8;
@@ -141,7 +138,7 @@
             // DateBirthLbl
             // 
             this.DateBirthLbl.AutoSize = true;
-            this.DateBirthLbl.Location = new System.Drawing.Point(32, 189);
+            this.DateBirthLbl.Location = new System.Drawing.Point(29, 156);
             this.DateBirthLbl.Name = "DateBirthLbl";
             this.DateBirthLbl.Size = new System.Drawing.Size(92, 16);
             this.DateBirthLbl.TabIndex = 6;
@@ -149,7 +146,7 @@
             // 
             // LastNameTxtBox
             // 
-            this.LastNameTxtBox.Location = new System.Drawing.Point(134, 149);
+            this.LastNameTxtBox.Location = new System.Drawing.Point(131, 116);
             this.LastNameTxtBox.Name = "LastNameTxtBox";
             this.LastNameTxtBox.Size = new System.Drawing.Size(181, 22);
             this.LastNameTxtBox.TabIndex = 5;
@@ -157,7 +154,7 @@
             // LastNameLbl
             // 
             this.LastNameLbl.AutoSize = true;
-            this.LastNameLbl.Location = new System.Drawing.Point(42, 152);
+            this.LastNameLbl.Location = new System.Drawing.Point(39, 119);
             this.LastNameLbl.Name = "LastNameLbl";
             this.LastNameLbl.Size = new System.Drawing.Size(81, 16);
             this.LastNameLbl.TabIndex = 4;
@@ -165,7 +162,7 @@
             // 
             // FirstNameTxtBox
             // 
-            this.FirstNameTxtBox.Location = new System.Drawing.Point(134, 109);
+            this.FirstNameTxtBox.Location = new System.Drawing.Point(131, 76);
             this.FirstNameTxtBox.Name = "FirstNameTxtBox";
             this.FirstNameTxtBox.Size = new System.Drawing.Size(181, 22);
             this.FirstNameTxtBox.TabIndex = 3;
@@ -173,27 +170,20 @@
             // FisrstNameLbl
             // 
             this.FisrstNameLbl.AutoSize = true;
-            this.FisrstNameLbl.Location = new System.Drawing.Point(38, 109);
+            this.FisrstNameLbl.Location = new System.Drawing.Point(35, 76);
             this.FisrstNameLbl.Name = "FisrstNameLbl";
             this.FisrstNameLbl.Size = new System.Drawing.Size(86, 16);
             this.FisrstNameLbl.TabIndex = 2;
             this.FisrstNameLbl.Text = "First Name ";
             // 
-            // IdTxtBox
+            // bottomPanel
             // 
-            this.IdTxtBox.Location = new System.Drawing.Point(134, 69);
-            this.IdTxtBox.Name = "IdTxtBox";
-            this.IdTxtBox.Size = new System.Drawing.Size(181, 22);
-            this.IdTxtBox.TabIndex = 1;
-            // 
-            // IdLbl
-            // 
-            this.IdLbl.AutoSize = true;
-            this.IdLbl.Location = new System.Drawing.Point(103, 72);
-            this.IdLbl.Name = "IdLbl";
-            this.IdLbl.Size = new System.Drawing.Size(20, 16);
-            this.IdLbl.TabIndex = 0;
-            this.IdLbl.Text = "Id";
+            this.bottomPanel.BackColor = System.Drawing.Color.Silver;
+            this.bottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bottomPanel.Location = new System.Drawing.Point(0, 500);
+            this.bottomPanel.Name = "bottomPanel";
+            this.bottomPanel.Size = new System.Drawing.Size(423, 77);
+            this.bottomPanel.TabIndex = 1;
             // 
             // AddDataInfoForm
             // 
@@ -201,6 +191,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(423, 577);
+            this.Controls.Add(this.bottomPanel);
             this.Controls.Add(this.groupBoxAddInfo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -229,8 +220,7 @@
         private System.Windows.Forms.Label LastNameLbl;
         private System.Windows.Forms.TextBox FirstNameTxtBox;
         private System.Windows.Forms.Label FisrstNameLbl;
-        private System.Windows.Forms.TextBox IdTxtBox;
-        private System.Windows.Forms.Label IdLbl;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
+        private System.Windows.Forms.Panel bottomPanel;
     }
 }

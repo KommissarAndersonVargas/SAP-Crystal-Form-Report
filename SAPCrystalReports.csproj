@@ -174,13 +174,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base Classes\DatabaseConnection.cs" />
-    <Compile Include="Base Classes\UserBuilder.cs" />
-    <Compile Include="Base Classes\UserData.cs" />
+    <Compile Include="Base Classes\EmployeeDAO.cs" />
+    <Compile Include="Base Classes\EmployeeData.cs" />
     <Compile Include="Controls Actions\ControlsActions.cs" />
     <Compile Include="DataSet\DataStaff.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataStaff.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FuncForms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncForms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FuncForms\AddDataInfoForm.cs">
       <SubType>Form</SubType>
@@ -202,6 +208,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FuncForms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FuncForms\AddDataInfoForm.resx">
       <DependentUpon>AddDataInfoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -305,6 +314,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\95904_database_right_arrow_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15700_information_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

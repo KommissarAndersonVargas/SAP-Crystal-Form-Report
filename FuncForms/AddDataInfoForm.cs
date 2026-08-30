@@ -1,6 +1,6 @@
-﻿using System;
-using System.Data;
-using System.Data.SqlClient;
+﻿using SAPCrystalReports.Base_Classes;
+using SAPCrystalReports.Classes;
+using System;
 using System.Windows.Forms;
 
 namespace SAPCrystalReports.FuncForms
@@ -22,7 +22,6 @@ namespace SAPCrystalReports.FuncForms
             string firstName = FirstNameTxtBox.Text.Trim();
             string lastName = LastNameTxtBox.Text.Trim();
             DateTime dateOfBirth = dateTimePicker.Value;
-            decimal income;
             string cellNumber = CellNumberTxtBox.Text.Trim();
             string email = EmailTxtBox.Text.Trim();
 
@@ -31,40 +30,34 @@ namespace SAPCrystalReports.FuncForms
                 MessageBox.Show(Properties.Resources.InfoName, Properties.Resources.Warning, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            if (!decimal.TryParse(IncomeTxtBox.Text.Trim(), out income))
+            if (!decimal.TryParse(IncomeTxtBox.Text.Trim(), out decimal income))
             {
                 MessageBox.Show(Properties.Resources.InvalidIncome, Properties.Resources.Warning, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-            }           
+            }
 
-           
+            var user = new EmployeeData
+            {
+                First_Name = firstName,
+                Last_Name = lastName,
+                Date_of_Birth = dateOfBirth,
+                Income = income,
+                Cell_Phone_Number = cellNumber,
+                Email = email
+            };
+
             try
             {
-                using (SqlConnection conn = new SqlConnection(DatabaseConnection.GetConnection()))
+                var addResult  = EmployeeDAO.AddNewEmployee(user);
+
+                if (addResult)
                 {
-                    using (SqlCommand cmd = new SqlCommand(DatabaseConnection.insertQuery, conn))
-                    {
-                        cmd.Parameters.Add("@FirstName", SqlDbType.VarChar, 100).Value = firstName;
-                        cmd.Parameters.Add("@LastName", SqlDbType.VarChar, 100).Value = lastName;
-                        cmd.Parameters.Add("@DateOfBirth", SqlDbType.Date).Value = dateOfBirth.Date;
-                        cmd.Parameters.Add("@Income", SqlDbType.Decimal).Value = income;
-                        cmd.Parameters.Add("@CellNumber", SqlDbType.VarChar, 50).Value = cellNumber;
-                        cmd.Parameters.Add("@Email", SqlDbType.VarChar, 200).Value = email;
-
-                        conn.Open();
-                        int rowsAffected = cmd.ExecuteNonQuery();
-                        conn.Close();
-
-                        if (rowsAffected > 0)
-                        {
-                            MessageBox.Show(Properties.Resources.AddedDone, Properties.Resources.Information, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            LimparCampos();
-                        }
-                        else
-                        {
-                            MessageBox.Show(Properties.Resources.AnyLineFound, Properties.Resources.Warning, MessageBoxButtons.OK,MessageBoxIcon.Warning);
-                        }
-                    }
+                    MessageBox.Show(Properties.Resources.AddedDone, Properties.Resources.Information, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LimparCampos();
+                }
+                else
+                {
+                    MessageBox.Show(Properties.Resources.AnyLineFound, Properties.Resources.Warning, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception)

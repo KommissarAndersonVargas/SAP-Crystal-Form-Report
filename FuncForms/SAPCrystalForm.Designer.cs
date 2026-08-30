@@ -63,6 +63,9 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.UpdateDataBase = new System.Windows.Forms.ToolStripButton();
             this.CloseButton = new System.Windows.Forms.Button();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.About = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imp_InfoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).BeginInit();
@@ -306,7 +309,10 @@
             this.toolStripSeparator2,
             this.AddNewData,
             this.toolStripSeparator3,
-            this.UpdateDataBase});
+            this.UpdateDataBase,
+            this.toolStripSeparator4,
+            this.About,
+            this.toolStripSeparator5});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(902, 73);
@@ -403,6 +409,27 @@
             this.CloseButton.UseVisualStyleBackColor = false;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click_1);
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 73);
+            // 
+            // About
+            // 
+            this.About.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.About.Image = global::SAPCrystalReports.Properties.Resources._15700_information_icon;
+            this.About.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.About.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.About.Name = "About";
+            this.About.Size = new System.Drawing.Size(57, 70);
+            this.About.Text = "About";
+            this.About.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 73);
+            // 
             // SAPCrystalForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -472,5 +499,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton UpdateDataBase;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripButton About;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
     }
 }
