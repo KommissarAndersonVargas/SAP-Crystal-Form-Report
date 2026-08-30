@@ -200,6 +200,12 @@
       <DependentUpon>FirstRep.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="FuncForms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncForms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FuncForms\SAPCrystalForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -217,6 +223,9 @@
     <EmbeddedResource Include="FuncForms\FirstRep.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>FirstRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncForms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FuncForms\SAPCrystalForm.resx">
       <DependentUpon>SAPCrystalForm.cs</DependentUpon>
@@ -317,6 +326,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\15700_information_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-back-image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

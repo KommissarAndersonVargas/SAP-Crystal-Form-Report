@@ -21,6 +21,10 @@ namespace SAPCrystalReports.FuncForms
                 this.imp_InfoTableAdapter.Fill(this.dataStaff.Imp_Info);
                 Controls_Actions.ControlsActions.InitializeWebView(webView);
                 ControlsActions.LoadData(tabControl, crystalReportViewerFullScr, crystalReportViewer1, dataStaff, FirstRep1);
+
+                var loginForm = new LoginForm();
+                loginForm.ShowDialog();
+
             }
             catch (Exception)
             {
