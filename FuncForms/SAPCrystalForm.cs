@@ -116,5 +116,11 @@ namespace SAPCrystalReports.FuncForms
             {
             }
         }
+
+        private void About_Click(object sender, EventArgs e)
+        {
+            var aboutForm = new AboutForm();
+            aboutForm.Show();
+        }
     }
 }

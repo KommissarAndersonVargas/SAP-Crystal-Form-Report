@@ -61,8 +61,9 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.UpdateDataBase = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.About = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.AddUser = new System.Windows.Forms.ToolStripButton();
             this.CloseButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imp_InfoBindingSource)).BeginInit();
@@ -166,7 +167,7 @@
             this.SAPCrystalFromgroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SAPCrystalFromgroupBox.Location = new System.Drawing.Point(3, 163);
             this.SAPCrystalFromgroupBox.Name = "SAPCrystalFromgroupBox";
-            this.SAPCrystalFromgroupBox.Size = new System.Drawing.Size(540, 273);
+            this.SAPCrystalFromgroupBox.Size = new System.Drawing.Size(540, 266);
             this.SAPCrystalFromgroupBox.TabIndex = 6;
             this.SAPCrystalFromgroupBox.TabStop = false;
             this.SAPCrystalFromgroupBox.Text = "SAP Crystal Report ";
@@ -181,7 +182,7 @@
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ReportSource = this.FirstRep1;
             this.crystalReportViewer1.ShowCloseButton = false;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(534, 254);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(534, 247);
             this.crystalReportViewer1.TabIndex = 1;
             // 
             // groupBoxDataGrid
@@ -202,9 +203,9 @@
             this.RightChatPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.RightChatPanel.Controls.Add(this.webView);
             this.RightChatPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.RightChatPanel.Location = new System.Drawing.Point(554, 73);
+            this.RightChatPanel.Location = new System.Drawing.Point(554, 80);
             this.RightChatPanel.Name = "RightChatPanel";
-            this.RightChatPanel.Size = new System.Drawing.Size(348, 465);
+            this.RightChatPanel.Size = new System.Drawing.Size(348, 458);
             this.RightChatPanel.TabIndex = 9;
             // 
             // webView
@@ -216,7 +217,7 @@
             this.webView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.webView.Location = new System.Drawing.Point(0, 0);
             this.webView.Name = "webView";
-            this.webView.Size = new System.Drawing.Size(344, 461);
+            this.webView.Size = new System.Drawing.Size(344, 454);
             this.webView.TabIndex = 0;
             this.webView.ZoomFactor = 1D;
             // 
@@ -226,10 +227,10 @@
             this.tabControl.Controls.Add(this.FullScrenTab);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl.Location = new System.Drawing.Point(0, 73);
+            this.tabControl.Location = new System.Drawing.Point(0, 80);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(554, 465);
+            this.tabControl.Size = new System.Drawing.Size(554, 458);
             this.tabControl.TabIndex = 10;
             // 
             // MainTab
@@ -239,7 +240,7 @@
             this.MainTab.Location = new System.Drawing.Point(4, 22);
             this.MainTab.Name = "MainTab";
             this.MainTab.Padding = new System.Windows.Forms.Padding(3);
-            this.MainTab.Size = new System.Drawing.Size(546, 439);
+            this.MainTab.Size = new System.Drawing.Size(546, 432);
             this.MainTab.TabIndex = 0;
             this.MainTab.Text = "Work Space";
             this.MainTab.UseVisualStyleBackColor = true;
@@ -307,11 +308,12 @@
             this.toolStripSeparator3,
             this.UpdateDataBase,
             this.toolStripSeparator4,
-            this.About,
-            this.toolStripSeparator5});
+            this.AddUser,
+            this.toolStripSeparator5,
+            this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(902, 73);
+            this.toolStrip1.Size = new System.Drawing.Size(902, 80);
             this.toolStrip1.TabIndex = 11;
             this.toolStrip1.Text = "toolStripMenu";
             // 
@@ -324,7 +326,7 @@
             this.LoadFast.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.LoadFast.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.LoadFast.Name = "LoadFast";
-            this.LoadFast.Size = new System.Drawing.Size(104, 70);
+            this.LoadFast.Size = new System.Drawing.Size(104, 77);
             this.LoadFast.Text = "Load Fast Data";
             this.LoadFast.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.LoadFast.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -334,7 +336,7 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 73);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 80);
             // 
             // AddNewData
             // 
@@ -345,7 +347,7 @@
             this.AddNewData.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.AddNewData.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.AddNewData.Name = "AddNewData";
-            this.AddNewData.Size = new System.Drawing.Size(70, 70);
+            this.AddNewData.Size = new System.Drawing.Size(70, 77);
             this.AddNewData.Text = "Add Data";
             this.AddNewData.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.AddNewData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -355,7 +357,7 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 73);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 80);
             // 
             // UpdateDataBase
             // 
@@ -364,7 +366,7 @@
             this.UpdateDataBase.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.UpdateDataBase.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UpdateDataBase.Name = "UpdateDataBase";
-            this.UpdateDataBase.Size = new System.Drawing.Size(117, 70);
+            this.UpdateDataBase.Size = new System.Drawing.Size(117, 77);
             this.UpdateDataBase.Text = "Update Database";
             this.UpdateDataBase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.UpdateDataBase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -373,23 +375,35 @@
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 73);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 80);
             // 
-            // About
+            // toolStripButton1
             // 
-            this.About.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.About.Image = global::SAPCrystalReports.Properties.Resources._15700_information_icon;
-            this.About.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.About.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.About.Name = "About";
-            this.About.Size = new System.Drawing.Size(57, 70);
-            this.About.Text = "About";
-            this.About.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton1.Image = global::SAPCrystalReports.Properties.Resources._15700_information_icon;
+            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(57, 77);
+            this.toolStripButton1.Text = "About";
+            this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 73);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 80);
+            // 
+            // AddUser
+            // 
+            this.AddUser.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddUser.Image = global::SAPCrystalReports.Properties.Resources._new_add_plus_user_icon;
+            this.AddUser.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.AddUser.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.AddUser.Name = "AddUser";
+            this.AddUser.Size = new System.Drawing.Size(114, 77);
+            this.AddUser.Text = "Add New User";
+            this.AddUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.AddUser.Click += new System.EventHandler(this.About_Click);
             // 
             // CloseButton
             // 
@@ -473,7 +487,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton UpdateDataBase;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripButton About;
+        private System.Windows.Forms.ToolStripButton AddUser;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
     }
 }

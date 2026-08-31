@@ -1,4 +1,4 @@
-﻿using SAPCrystalReports.Base_Classes;
+﻿using SAPCrystalReports.BaseClasses.BO;
 using SAPCrystalReports.Classes;
 using System;
 using System.Windows.Forms;
@@ -49,7 +49,7 @@ namespace SAPCrystalReports.FuncForms
 
             try
             {
-                var addResult  = EmployeeDAO.AddNewEmployee(user);
+                var addResult  = EmployeeBO.AddNewEmployee(user);
 
                 if (addResult)
                 {

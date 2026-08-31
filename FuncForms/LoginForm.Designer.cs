@@ -82,7 +82,6 @@
             this.lblLogin.Size = new System.Drawing.Size(49, 18);
             this.lblLogin.TabIndex = 3;
             this.lblLogin.Text = "Login";
-            this.lblLogin.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblpassword
             // 
@@ -110,11 +109,13 @@
             this.loginBtn.TabIndex = 5;
             this.loginBtn.Text = "Login";
             this.loginBtn.UseVisualStyleBackColor = false;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::SAPCrystalReports.Properties.Resources.login;
-            this.pictureBox1.Location = new System.Drawing.Point(793, 160);
+            this.pictureBox1.Location = new System.Drawing.Point(808, 157);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(116, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

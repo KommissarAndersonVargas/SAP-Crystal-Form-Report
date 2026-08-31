@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SAPCrystalReports.FuncForms
@@ -14,12 +9,11 @@ namespace SAPCrystalReports.FuncForms
         public AboutForm()
         {
             InitializeComponent();
-            this.Text = String.Format("Sobre {0}", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Versão {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+            this.labelVersion.Text = String.Format("Versão 1.0.0.1", AssemblyVersion);
+            this.labelCopyright.Text = "All the rights Reserved";
+            this.labelCompanyName.Text = "Super Office Software";
+            this.textBoxDescription.Text = "Produto para gestão de ativos de funcionários com tecnologia SAP";
         }
 
         #region Acessório de Atributos do Assembly
@@ -101,5 +95,10 @@ namespace SAPCrystalReports.FuncForms
             }
         }
         #endregion
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
