@@ -183,7 +183,9 @@
     <Compile Include="BaseClasses\DatabaseContexts\UsersDAO.cs" />
     <Compile Include="BaseClasses\Interfaces\IUser.cs" />
     <Compile Include="BaseClasses\DTOs\User.cs" />
-    <Compile Include="BaseClasses\EmployeeData.cs" />
+    <Compile Include="BaseClasses\DTOs\EmployeeData.cs" />
+    <Compile Include="BaseClasses\WinRegister\RegisterManagerBO.cs" />
+    <Compile Include="BaseClasses\WinRegister\WinRegisterOps.cs" />
     <Compile Include="ControlsActions\ControlsActions.cs" />
     <Compile Include="DataSet\DataStaff.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -201,6 +203,12 @@
     </Compile>
     <Compile Include="FuncForms\AddDataInfoForm.Designer.cs">
       <DependentUpon>AddDataInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncForms\AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncForms\AddUserForm.Designer.cs">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FuncForms\FirstRep.cs">
       <AutoGen>True</AutoGen>
@@ -227,6 +235,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FuncForms\AddDataInfoForm.resx">
       <DependentUpon>AddDataInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncForms\AddUserForm.resx">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FuncForms\FirstRep.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -358,6 +369,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\_new_add_plus_user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

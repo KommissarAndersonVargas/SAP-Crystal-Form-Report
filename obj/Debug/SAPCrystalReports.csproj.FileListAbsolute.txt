@@ -115,3 +115,4 @@ C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.Func
 C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.FuncForms.LoginForm.resources
 C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\Dapper.dll
 C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\Dapper.xml
+C:\Users\Usuario\source\repos\SAPCrystalReports\obj\Debug\SAPCrystalReports.FuncForms.AddUserForm.resources

@@ -1,12 +1,7 @@
 ﻿using Dapper;
 using SAPCrystalReports.BaseClasses.DTOs;
-using SAPCrystalReports.Classes;
-using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SDatabaseContexts
 {

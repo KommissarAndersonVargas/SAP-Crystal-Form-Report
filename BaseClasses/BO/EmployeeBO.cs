@@ -1,9 +1,6 @@
-﻿using SAPCrystalReports.Classes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Base_Classes;
+using Microsoft.IdentityModel.Tokens;
+using SAPCrystalReports.Classes;
 
 namespace SAPCrystalReports.BaseClasses.BO
 {
@@ -11,7 +8,17 @@ namespace SAPCrystalReports.BaseClasses.BO
     {
         public static bool AddNewEmployee(EmployeeData employee)
         {
-            return AddNewEmployee(employee);
+            if (!IsValidObject(employee))
+                return false;
+
+            return EmployeeDAO.AddNewEmployee(employee);
+        }
+        private static bool IsValidObject(EmployeeData employee)
+        {
+            var isValid = employee.Cell_Phone_Number.IsNullOrEmpty() && employee.First_Name.IsNullOrEmpty()
+                && employee.Last_Name.IsNullOrEmpty() && employee.Email.IsNullOrEmpty() &&  employee.Date_of_Birth != null;
+
+            return isValid;
         }
     }
 }

@@ -1,3 +1,2 @@
-2026/08/31-14:40:16.409 42b8 Reusing MANIFEST C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001
-2026/08/31-14:40:16.411 42b8 Recovering log #4
-2026/08/31-14:40:16.417 42b8 Reusing old log C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default\Session Storage/000004.log 
+2026/09/02-15:06:55.082 5788 Creating DB C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default\Session Storage since it was missing.
+2026/09/02-15:06:55.112 5788 Reusing MANIFEST C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001

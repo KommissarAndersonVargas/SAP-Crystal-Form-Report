@@ -1,4 +1,5 @@
 ﻿using SAPCrystalReports.BaseClasses.BO;
+using SAPCrystalReports.BaseClasses.WinRegister;
 using System;
 using System.Linq;
 using System.Windows.Forms;
@@ -14,10 +15,7 @@ namespace SAPCrystalReports.FuncForms
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-            var users = UserBO.GetUsers();
-
-            txtbLogin.Text = users.FirstOrDefault().Login.Trim();
-            txtbLogin.SelectionLength = 0;
+            txtbLogin.Text = RegisterManagerBO.GetLoginRegister();
         }
         private void LoginForm_Shown(object sender, EventArgs e)
         {
@@ -37,8 +35,12 @@ namespace SAPCrystalReports.FuncForms
 
             var loginResult = UserBO.ValidadeUser(login, password);
 
-            if(loginResult)
+            if (loginResult)
+            {
+                RegisterManagerBO.SetLoginRegister(login);
                 this.Close();
+            }
+                
         }
     }
 }

@@ -14,9 +14,22 @@ public static class DatabaseManager
     INSERT INTO Imp_Info (First_Name, Last_Name, Date_of_birth, Income, Cell_Number, Email)
     VALUES (@First_Name, @Last_Name, @Date_Of_Birth, @Income, @Cell_Phone_Number, @Email)";
 
+    //Comando insert users
+    private static string _insertUsers = @"
+    INSERT INTO Imp_Info (Id, Name, Login, Password)
+    VALUES (@id, @name, @login, @password)";
+
     //Comando Select users
     private static string _selectUsers =  @"SELECT * FROM User_Table";
 
+
+    public static string InsertUsers
+    {
+        get
+        {
+            return _insertUsers;
+        }
+    }
 
     public static string ConnectionString
     {
