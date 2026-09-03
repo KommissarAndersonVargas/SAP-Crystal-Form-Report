@@ -61,10 +61,13 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.UpdateDataBase = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.AddUser = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.AboutBtn = new System.Windows.Forms.ToolStripButton();
             this.CloseButton = new System.Windows.Forms.Button();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.lblCurrentUser = new System.Windows.Forms.ToolStripLabel();
+            this.lblCurrentUserValue = new System.Windows.Forms.ToolStripLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imp_InfoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).BeginInit();
@@ -251,7 +254,7 @@
             this.FullScrenTab.Location = new System.Drawing.Point(4, 22);
             this.FullScrenTab.Name = "FullScrenTab";
             this.FullScrenTab.Padding = new System.Windows.Forms.Padding(3);
-            this.FullScrenTab.Size = new System.Drawing.Size(546, 439);
+            this.FullScrenTab.Size = new System.Drawing.Size(546, 432);
             this.FullScrenTab.TabIndex = 1;
             this.FullScrenTab.Text = "Full Screen Report";
             this.FullScrenTab.UseVisualStyleBackColor = true;
@@ -265,7 +268,7 @@
             this.crystalReportViewerFullScr.Location = new System.Drawing.Point(3, 3);
             this.crystalReportViewerFullScr.Name = "crystalReportViewerFullScr";
             this.crystalReportViewerFullScr.ReportSource = this.FirstRep1;
-            this.crystalReportViewerFullScr.Size = new System.Drawing.Size(540, 433);
+            this.crystalReportViewerFullScr.Size = new System.Drawing.Size(540, 426);
             this.crystalReportViewerFullScr.TabIndex = 0;
             // 
             // MaximizeFormButton
@@ -309,8 +312,11 @@
             this.UpdateDataBase,
             this.toolStripSeparator4,
             this.AddUser,
+            this.toolStripSeparator1,
+            this.AboutBtn,
             this.toolStripSeparator5,
-            this.toolStripButton1});
+            this.lblCurrentUser,
+            this.lblCurrentUserValue});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(902, 80);
@@ -377,22 +383,6 @@
             this.toolStripSeparator4.Name = "toolStripSeparator4";
             this.toolStripSeparator4.Size = new System.Drawing.Size(6, 80);
             // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton1.Image = global::SAPCrystalReports.Properties.Resources._15700_information_icon;
-            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(57, 77);
-            this.toolStripButton1.Text = "About";
-            this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 80);
-            // 
             // AddUser
             // 
             this.AddUser.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -403,7 +393,24 @@
             this.AddUser.Size = new System.Drawing.Size(114, 77);
             this.AddUser.Text = "Add New User";
             this.AddUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.AddUser.Click += new System.EventHandler(this.About_Click);
+            this.AddUser.Click += new System.EventHandler(this.AddUser_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 80);
+            // 
+            // AboutBtn
+            // 
+            this.AboutBtn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutBtn.Image = global::SAPCrystalReports.Properties.Resources._15700_information_icon;
+            this.AboutBtn.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.AboutBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.AboutBtn.Name = "AboutBtn";
+            this.AboutBtn.Size = new System.Drawing.Size(57, 77);
+            this.AboutBtn.Text = "About";
+            this.AboutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.AboutBtn.Click += new System.EventHandler(this.AboutBtn_Click);
             // 
             // CloseButton
             // 
@@ -418,6 +425,29 @@
             this.CloseButton.TabIndex = 12;
             this.CloseButton.UseVisualStyleBackColor = false;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click_1);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 80);
+            // 
+            // lblCurrentUser
+            // 
+            this.lblCurrentUser.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentUser.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblCurrentUser.Name = "lblCurrentUser";
+            this.lblCurrentUser.Size = new System.Drawing.Size(132, 77);
+            this.lblCurrentUser.Text = "Current User:";
+            this.lblCurrentUser.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblCurrentUser.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            // 
+            // lblCurrentUserValue
+            // 
+            this.lblCurrentUserValue.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentUserValue.Name = "lblCurrentUserValue";
+            this.lblCurrentUserValue.Size = new System.Drawing.Size(85, 77);
+            this.lblCurrentUserValue.Text = "<value>";
+            this.lblCurrentUserValue.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // SAPCrystalForm
             // 
@@ -489,6 +519,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripButton AddUser;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton AboutBtn;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripLabel lblCurrentUser;
+        private System.Windows.Forms.ToolStripLabel lblCurrentUserValue;
     }
 }

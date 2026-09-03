@@ -16,14 +16,14 @@ public static class DatabaseManager
 
     //Comando insert users
     private static string _insertUsers = @"
-    INSERT INTO Imp_Info (Id, Name, Login, Password)
-    VALUES (@id, @name, @login, @password)";
+    INSERT INTO User_Table (Name, Login, Password)
+    VALUES (@name, @login, @password)";
 
     //Comando Select users
     private static string _selectUsers =  @"SELECT * FROM User_Table";
 
 
-    public static string InsertUsers
+    public static string InsertUsersQuery
     {
         get
         {

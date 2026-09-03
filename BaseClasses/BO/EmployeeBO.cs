@@ -15,10 +15,10 @@ namespace SAPCrystalReports.BaseClasses.BO
         }
         private static bool IsValidObject(EmployeeData employee)
         {
-            var isValid = employee.Cell_Phone_Number.IsNullOrEmpty() && employee.First_Name.IsNullOrEmpty()
+            var isEverythingNull = employee.Cell_Phone_Number.IsNullOrEmpty() && employee.First_Name.IsNullOrEmpty()
                 && employee.Last_Name.IsNullOrEmpty() && employee.Email.IsNullOrEmpty() &&  employee.Date_of_Birth != null;
 
-            return isValid;
+            return !isEverythingNull;
         }
     }
 }

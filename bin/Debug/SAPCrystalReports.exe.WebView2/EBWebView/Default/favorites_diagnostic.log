@@ -623,3 +623,233 @@
 2026-09-02 18:06:53.397: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-02 18:06:53.397: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-02 18:07:19.489: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:05:22.185: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:05:22.185: [INFO] Profiles total count: 1
+2026-09-02 19:05:22.185: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:05:22.185: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:05:22.185: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:05:22.185: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 19:05:22.185: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 19:05:22.185: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 19:05:22.185: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:07:48.201: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:08:08.868: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:08:08.868: [INFO] Profiles total count: 1
+2026-09-02 19:08:08.868: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:08:08.868: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:08:08.868: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:08:08.868: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 19:08:08.868: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 19:08:08.868: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 19:08:08.868: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:09:59.766: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:29:13.168: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:29:13.168: [INFO] Profiles total count: 1
+2026-09-02 19:29:13.168: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:29:13.168: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:29:13.168: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:29:13.169: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 19:29:13.169: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 19:29:13.169: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 19:29:13.169: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:29:41.299: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:35:30.527: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:35:30.527: [INFO] Profiles total count: 1
+2026-09-02 19:35:30.527: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:35:30.527: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:35:30.527: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:35:30.527: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 19:35:30.527: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 19:35:30.527: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 19:35:30.527: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:36:21.485: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:52:05.443: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:52:05.443: [INFO] Profiles total count: 1
+2026-09-02 19:52:05.443: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:52:05.443: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:52:05.443: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:52:05.443: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 19:52:05.443: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 19:52:05.443: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 19:52:05.443: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:52:54.199: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:54:06.236: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:54:06.236: [INFO] Profiles total count: 1
+2026-09-02 19:54:06.236: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:54:06.236: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:54:06.236: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:54:06.236: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 19:54:06.236: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 19:54:06.236: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 19:54:06.236: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:54:49.556: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:55:24.588: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:55:24.588: [INFO] Profiles total count: 1
+2026-09-02 19:55:24.589: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:55:24.589: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-02 19:55:24.589: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-02 19:55:24.589: [INFO] OnDoneLoading sync enabled: 0
+2026-09-02 19:55:24.589: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-02 19:55:24.589: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-02 19:55:24.589: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-02 19:58:36.959: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:40:42.500: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:40:42.500: [INFO] Profiles total count: 1
+2026-09-03 14:40:42.500: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:40:42.500: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:40:42.500: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:40:42.500: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 14:40:42.500: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 14:40:42.500: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 14:40:42.500: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:42:35.652: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:43:57.408: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:43:57.408: [INFO] Profiles total count: 1
+2026-09-03 14:43:57.408: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:43:57.408: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:43:57.408: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:43:57.408: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 14:43:57.408: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 14:43:57.408: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 14:43:57.408: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:45:07.750: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:45:32.336: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:45:32.336: [INFO] Profiles total count: 1
+2026-09-03 14:45:32.336: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:45:32.336: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:45:32.336: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:45:32.336: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 14:45:32.336: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 14:45:32.336: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 14:45:32.336: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:47:12.401: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:47:32.260: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:47:32.260: [INFO] Profiles total count: 1
+2026-09-03 14:47:32.260: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:47:32.260: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:47:32.260: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:47:32.260: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 14:47:32.260: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 14:47:32.260: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 14:47:32.260: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:48:10.471: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:48:49.761: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:48:49.761: [INFO] Profiles total count: 1
+2026-09-03 14:48:49.761: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:48:49.761: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:48:49.761: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:48:49.761: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 14:48:49.761: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 14:48:49.761: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 14:48:49.761: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:50:14.244: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 14:57:37.320: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:57:37.320: [INFO] Profiles total count: 1
+2026-09-03 14:57:37.320: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:57:37.320: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 14:57:37.320: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 14:57:37.320: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 14:57:37.320: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 14:57:37.320: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 14:57:37.320: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 15:00:49.449: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 15:06:45.637: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 15:06:45.637: [INFO] Profiles total count: 1
+2026-09-03 15:06:45.637: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 15:06:45.637: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 15:06:45.637: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 15:06:45.637: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 15:06:45.637: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 15:06:45.637: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 15:06:45.637: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 15:11:23.998: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 15:13:05.242: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 15:13:05.242: [INFO] Profiles total count: 1
+2026-09-03 15:13:05.242: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 15:13:05.242: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 15:13:05.242: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 15:13:05.242: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 15:13:05.242: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 15:13:05.242: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 15:13:05.242: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 15:16:34.417: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:26:57.393: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:26:57.393: [INFO] Profiles total count: 1
+2026-09-03 16:26:57.393: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:26:57.393: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:26:57.393: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:26:57.393: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 16:26:57.393: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 16:26:57.393: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 16:26:57.393: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:27:20.768: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:29:53.213: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:29:53.213: [INFO] Profiles total count: 1
+2026-09-03 16:29:53.213: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:29:53.213: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:29:53.213: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:29:53.213: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 16:29:53.213: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 16:29:53.213: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 16:29:53.213: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:30:13.304: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:30:38.515: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:30:38.515: [INFO] Profiles total count: 1
+2026-09-03 16:30:38.515: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:30:38.515: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:30:38.515: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:30:38.515: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 16:30:38.515: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 16:30:38.515: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 16:30:38.516: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:30:51.955: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:36:17.285: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:36:17.285: [INFO] Profiles total count: 1
+2026-09-03 16:36:17.285: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:36:17.285: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:36:17.285: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:36:17.285: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 16:36:17.285: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 16:36:17.285: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 16:36:17.285: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:37:02.369: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:46:16.033: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:46:16.033: [INFO] Profiles total count: 1
+2026-09-03 16:46:16.034: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:46:16.034: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:46:16.034: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:46:16.034: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 16:46:16.034: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 16:46:16.034: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 16:46:16.034: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:47:10.527: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:48:38.673: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:48:38.673: [INFO] Profiles total count: 1
+2026-09-03 16:48:38.673: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:48:38.673: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 16:48:38.673: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 16:48:38.673: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 16:48:38.673: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 16:48:38.673: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 16:48:38.673: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 16:50:22.058: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 17:00:38.380: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 17:00:38.380: [INFO] Profiles total count: 1
+2026-09-03 17:00:38.380: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 17:00:38.380: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 17:00:38.380: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 17:00:38.380: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 17:00:38.380: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 17:00:38.380: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 17:00:38.380: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 17:02:58.102: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 17:04:42.680: [INFO] CurrentProfilePath: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 17:04:42.680: [INFO] Profiles total count: 1
+2026-09-03 17:04:42.680: [INFO] Profile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 17:04:42.680: [INFO] LastUsedProfileDir: C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default
+2026-09-03 17:04:42.680: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\Usuario\source\repos\SAPCrystalReports\bin\Debug\SAPCrystalReports.exe.WebView2\EBWebView\Default lastActive=2026-08-31T15:06:47.360Z
+2026-09-03 17:04:42.680: [INFO] OnDoneLoading sync enabled: 0
+2026-09-03 17:04:42.680: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-03 17:04:42.680: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-03 17:04:42.680: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-03 17:05:30.374: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

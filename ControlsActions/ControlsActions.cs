@@ -85,6 +85,7 @@ namespace SAPCrystalReports.Controls_Actions
             }
             catch (Exception)
             {
+                Console.WriteLine();
             }
         }
 

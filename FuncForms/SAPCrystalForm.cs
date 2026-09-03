@@ -1,4 +1,5 @@
 ﻿using Microsoft.Web.WebView2.Core;
+using SAPCrystalReports.BaseClasses.WinRegister;
 using SAPCrystalReports.Controls_Actions;
 using System;
 using System.Drawing;
@@ -20,14 +21,12 @@ namespace SAPCrystalReports.FuncForms
                 // TODO: esta linha de código carrega dados na tabela 'dataStaff.Imp_Info'. Você pode movê-la ou removê-la conforme necessário.
                 this.imp_InfoTableAdapter.Fill(this.dataStaff.Imp_Info);
                 Controls_Actions.ControlsActions.InitializeWebView(webView);
+                lblCurrentUserValue.Text = RegisterManagerBO.GetLoginRegister().ToString();
                 ControlsActions.LoadData(tabControl, crystalReportViewerFullScr, crystalReportViewer1, dataStaff, FirstRep1);
-
-                var loginForm = new LoginForm();
-                loginForm.ShowDialog();
-
             }
             catch (Exception)
             {
+                Console.WriteLine();
             }
         }
 
@@ -117,10 +116,16 @@ namespace SAPCrystalReports.FuncForms
             }
         }
 
-        private void About_Click(object sender, EventArgs e)
+        private void AddUser_Click(object sender, EventArgs e)
+        {
+            var addUserForm =  new AddUserForm();
+            addUserForm.ShowDialog();
+        }
+
+        private void AboutBtn_Click(object sender, EventArgs e)
         {
             var aboutForm = new AboutForm();
-            aboutForm.Show();
+            aboutForm.ShowDialog();
         }
     }
 }

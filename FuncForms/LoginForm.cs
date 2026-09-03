@@ -38,9 +38,10 @@ namespace SAPCrystalReports.FuncForms
             if (loginResult)
             {
                 RegisterManagerBO.SetLoginRegister(login);
+                this.DialogResult = DialogResult.OK;
                 this.Close();
-            }
                 
+            }    
         }
     }
 }

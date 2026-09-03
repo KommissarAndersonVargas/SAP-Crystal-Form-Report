@@ -17,9 +17,25 @@ namespace SAPCrystalReports.BaseClasses.BO
             return validateUserResult;
         }
 
+        public static bool InsertNewUser(User user, string confirmPassword)
+        {
+            if (!user.Password.Equals(confirmPassword))
+                return false;
+
+            return UsersDAO.InsertNewUser(user);
+        }
+
         public static List<User> GetUsers()
         {
             return UsersDAO.GetUsers().ToList();
+        }
+        public static bool IsValidUser(User user)
+        {
+            var users = UsersDAO.GetUsers();
+
+            var isInvalidLogin = users.Any(_user => _user.Login.Trim() == user.Login);
+
+            return isInvalidLogin;
         }
     }
 }
