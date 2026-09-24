@@ -176,18 +176,18 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseClasses\BO\EmployeeBO.cs" />
-    <Compile Include="BaseClasses\BO\UserBO.cs" />
-    <Compile Include="BaseClasses\DatabaseContexts\DatabaseManager.cs" />
-    <Compile Include="BaseClasses\DatabaseContexts\EmployeeDAO.cs" />
-    <Compile Include="BaseClasses\DatabaseContexts\UsersDAO.cs" />
-    <Compile Include="BaseClasses\Interfaces\IUser.cs" />
-    <Compile Include="BaseClasses\DTOs\User.cs" />
-    <Compile Include="BaseClasses\DTOs\EmployeeData.cs" />
-    <Compile Include="BaseClasses\WinRegister\RegisterManagerBO.cs" />
-    <Compile Include="BaseClasses\WinRegister\WinRegisterOps.cs" />
+    <Compile Include="BaseClasses\Dominio\BO\EmployeeBO.cs" />
+    <Compile Include="BaseClasses\Dominio\BO\UserBO.cs" />
+    <Compile Include="BaseClasses\Infrastructure\DatabaseManager.cs" />
+    <Compile Include="BaseClasses\Infrastructure\EmployeeDAO.cs" />
+    <Compile Include="BaseClasses\Infrastructure\UsersDAO.cs" />
+    <Compile Include="BaseClasses\Dominio\Interfaces\IUser.cs" />
+    <Compile Include="BaseClasses\Dominio\DTOs\User.cs" />
+    <Compile Include="BaseClasses\Dominio\DTOs\EmployeeData.cs" />
+    <Compile Include="BaseClasses\Infrastructure\WinRegister\RegisterManagerBO.cs" />
+    <Compile Include="BaseClasses\Infrastructure\WinRegister\WinRegisterOps.cs" />
     <Compile Include="ControlsActions\ControlsActions.cs" />
-    <Compile Include="DataSet\DataStaff.Designer.cs">
+    <Compile Include="BaseClasses\Infrastructure\DataSet\DataStaff.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataStaff.xsd</DependentUpon>
@@ -259,17 +259,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="DataSet\DataStaff.xsc">
-      <DependentUpon>DataStaff.xsd</DependentUpon>
-    </None>
-    <None Include="DataSet\DataStaff.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataStaff.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSet\DataStaff.xss">
-      <DependentUpon>DataStaff.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

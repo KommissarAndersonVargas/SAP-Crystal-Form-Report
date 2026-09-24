@@ -38,14 +38,14 @@ namespace SAPCrystalReports.Controls_Actions
             }
         }
 
-        public static void LoadReportByCode(CrystalReportViewer crystalReportViewer, DataSet.DataStaff dataStaff)
+        public static void LoadReportByCode(CrystalReportViewer crystalReportViewer, BaseClasses.Infrastructure.DataSet.DataStaff dataStaff)
         {
             FirstRep myCrystalFile = new FirstRep();
             myCrystalFile.SetDataSource(dataStaff);
             crystalReportViewer.ReportSource = myCrystalFile;
         }
 
-        public static void LoadFast(TabControl tabControl, CrystalReportViewer crystalReportViewerFullScr, CrystalReportViewer crystalReportViewer1, DataSet.DataStaff dataStaff)
+        public static void LoadFast(TabControl tabControl, CrystalReportViewer crystalReportViewerFullScr, CrystalReportViewer crystalReportViewer1, BaseClasses.Infrastructure.DataSet.DataStaff dataStaff)
         {
             try
             {
@@ -65,7 +65,7 @@ namespace SAPCrystalReports.Controls_Actions
             }
         }
 
-        public static void LoadData(TabControl tabControl, CrystalReportViewer crystalReportViewerFullScr, CrystalReportViewer crystalReportViewer1, DataSet.DataStaff dataStaff, FirstRep FirstRep1)
+        public static void LoadData(TabControl tabControl, CrystalReportViewer crystalReportViewerFullScr, CrystalReportViewer crystalReportViewer1, BaseClasses.Infrastructure.DataSet.DataStaff dataStaff, FirstRep FirstRep1)
         {
             try
             {

@@ -39,9 +39,9 @@
             this.cellNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.imp_InfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataStaff = new SAPCrystalReports.DataSet.DataStaff();
-            this.imp_InfoTableAdapter = new SAPCrystalReports.DataSet.DataStaffTableAdapters.Imp_InfoTableAdapter();
-            this.tableAdapterManager = new SAPCrystalReports.DataSet.DataStaffTableAdapters.TableAdapterManager();
+            this.dataStaff = new SAPCrystalReports.BaseClasses.Infrastructure.DataSet.DataStaff();
+            this.imp_InfoTableAdapter = new SAPCrystalReports.BaseClasses.Infrastructure.DataSet.DataStaffTableAdapters.Imp_InfoTableAdapter();
+            this.tableAdapterManager = new SAPCrystalReports.BaseClasses.Infrastructure.DataSet.DataStaffTableAdapters.TableAdapterManager();
             this.SAPCrystalFromgroupBox = new System.Windows.Forms.GroupBox();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.FirstRep1 = new SAPCrystalReports.FuncForms.FirstRep();
@@ -161,7 +161,7 @@
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager.Imp_InfoTableAdapter = this.imp_InfoTableAdapter;
-            this.tableAdapterManager.UpdateOrder = SAPCrystalReports.DataSet.DataStaffTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UpdateOrder = SAPCrystalReports.BaseClasses.Infrastructure.DataSet.DataStaffTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // SAPCrystalFromgroupBox
             // 
@@ -487,10 +487,10 @@
         #endregion
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
         private System.Windows.Forms.DataGridView dataGridView;
-        private DataSet.DataStaff dataStaff;
+        private BaseClasses.Infrastructure.DataSet.DataStaff dataStaff;
         private System.Windows.Forms.BindingSource imp_InfoBindingSource;
-        private DataSet.DataStaffTableAdapters.Imp_InfoTableAdapter imp_InfoTableAdapter;
-        private DataSet.DataStaffTableAdapters.TableAdapterManager tableAdapterManager;
+        private BaseClasses.Infrastructure.DataSet.DataStaffTableAdapters.Imp_InfoTableAdapter imp_InfoTableAdapter;
+        private BaseClasses.Infrastructure.DataSet.DataStaffTableAdapters.TableAdapterManager tableAdapterManager;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
