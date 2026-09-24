@@ -60,7 +60,6 @@
             this.txbLogin.Name = "txbLogin";
             this.txbLogin.Size = new System.Drawing.Size(190, 37);
             this.txbLogin.TabIndex = 1;
-            this.txbLogin.TextChanged += new System.EventHandler(this.txbLogin_TextChanged);
             // 
             // txtbConfirmPassword
             // 
@@ -70,7 +69,6 @@
             this.txtbConfirmPassword.Name = "txtbConfirmPassword";
             this.txtbConfirmPassword.Size = new System.Drawing.Size(190, 37);
             this.txtbConfirmPassword.TabIndex = 2;
-            this.txtbConfirmPassword.TextChanged += new System.EventHandler(this.txtbConfirmPassword_TextChanged);
             // 
             // addUserBtn
             // 
@@ -92,7 +90,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // closeBtn
             // 
@@ -116,7 +113,6 @@
             this.txbName.Name = "txbName";
             this.txbName.Size = new System.Drawing.Size(190, 37);
             this.txbName.TabIndex = 6;
-            this.txbName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblName
             // 
@@ -127,7 +123,6 @@
             this.lblName.Size = new System.Drawing.Size(55, 20);
             this.lblName.TabIndex = 7;
             this.lblName.Text = "Name";
-            this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // lblLogin
             // 
@@ -158,7 +153,6 @@
             this.lblConfirmPassword.Size = new System.Drawing.Size(153, 20);
             this.lblConfirmPassword.TabIndex = 10;
             this.lblConfirmPassword.Text = "Confirm Password";
-            this.lblConfirmPassword.Click += new System.EventHandler(this.lblConfirmPassword_Click);
             // 
             // bottomPnl
             // 
@@ -190,7 +184,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddUserForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.AddUserForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

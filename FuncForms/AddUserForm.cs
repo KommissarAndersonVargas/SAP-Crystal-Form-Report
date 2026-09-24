@@ -20,41 +20,6 @@ namespace SAPCrystalReports.FuncForms
             InitializeComponent();
         }
 
-        private void txtbConfirmPassword_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblConfirmPassword_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblName_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AddUserForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txbLogin_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void closeBtn_Click(object sender, EventArgs e)
         {
             this.Close();
