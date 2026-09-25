@@ -36,7 +36,7 @@ namespace SAPCrystalReports.FuncForms
 
             if (!allFieldsValid)
             {
-                MessageBox.Show("Campos invalidos ou em branco");
+                MessageBox.Show("Campos invalidos ou em branco", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -51,7 +51,7 @@ namespace SAPCrystalReports.FuncForms
             
             if (isValidUser)
             {
-                MessageBox.Show("Usuário já existente");
+                MessageBox.Show("Usuário já existente", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -59,7 +59,7 @@ namespace SAPCrystalReports.FuncForms
 
             if (userAdded)
             {
-                MessageBox.Show("adicionado o usuário");
+                MessageBox.Show("adicionado o usuário", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
